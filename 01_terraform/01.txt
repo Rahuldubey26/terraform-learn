@@ -1,0 +1,8 @@
+Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It allows users to define and provision data center infrastructure using a declarative configuration language called HashiCorp Configuration Language (HCL). Terraform is used to create, manage, and version infrastructure safely and efficiently across multiple cloud providers, such as AWS, Azure, Google Cloud, and even on-premises environments.
+
+Key features of Terraform include:
+
+Declarative Configuration: Users define the desired state of their infrastructure, and Terraform ensures that this state is achieved.
+State Management: Maintains a state file that tracks the current state of the infrastructure, which helps in planning changes and detecting configuration drift.
+Plan and Apply Workflow: The terraform plan command previews changes before they are applied, and the terraform apply command executes the changes to achieve the desired state.
+Modularization and Reusability: Allows for the use of modules to organize and reuse configurations across projects.
